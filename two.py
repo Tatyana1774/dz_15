@@ -12,7 +12,6 @@ with open('names.csv', 'w', newline='') as csvfile:
 # 13
 # 16
 
-# теперь читаем, что получилось
 with open('names.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
